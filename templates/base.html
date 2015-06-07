@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+    <meta charset = "utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1"> 
+    <title>Lesson Notes</title>
+    <link rel="stylesheet" href = "css/bootstrap.css">
+    <link href="css/main.css" rel="stylesheet" type = "text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"> <img class="img-responsive" src="images/logo.png" alt="log"></div>
+                <div class="col-md-10"><H1 class="header">Introduction to Programming</H1><H3>Class Notes</H3></div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> The Basics of the Web and HTML
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> What is Web
+
+                    </H3>
+                    <H4 class="textfile">The web is the interaction among following composite parts: computer+brower, internet, HTTP and servers. The main content transported through web is HTML documents.
+
+                    </H4>
+                    <H3 class="subtitle"> What HTML Stands For
+
+                    </H3>
+                    <H4 class="textfile">HTML stands for Hypertext Markup Language. HTML documents form the majority of the content on the web. HTML documents contain following parts:
+* Text content (what you see)
+* Markup (what it looks like)
+* Reference to other documents
+* Links to other pages
+
+                    </H4>
+                    <H3 class="subtitle"> Tages and Elements
+
+                    </H3>
+                    <H4 class="textfile">HTML documents are made of HTML elements. Tags are basic elements used by HTML.
+
+                    </H4>
+                    <H3 class="subtitle"> Computers are Stupid
+
+                    </H3>
+                    <H4 class="textfile">Computers are stupid because they are sensitive to typos. This makes them very unforgiving since a small mistake by a programmer can cause huge problems in a program.
+
+                    </H4>
+                    <H3 class="subtitle"> Inline vs Block Elements
+
+                    </H3>
+                    <H4 class="textfile">HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Creating a Structured Document with HTML
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Developer Tools (in the Browser)
+
+                    </H3>
+                    <H4 class="textfile">HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+
+                    </H4>
+                    <H3 class="subtitle"> The "tree-like structure" of HTML
+
+                    </H3>
+                    <H4 class="textfile">The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. The relationship between elements is like family tree. My mother had multiple children. So did her mother, and so on... In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...
+
+                    </H4>
+                    <H3 class="subtitle"> The relationship between indented HTML and boxes
+
+                    </H3>
+                    <H4 class="textfile">When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.
+
+                    </H4>
+                    <H3 class="subtitle"> Text Editors (for programming)
+
+                    </H3>
+                    <H4 class="textfile">When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Adding CSS Style to HTML Structure
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Avoiding repetition is important for a variety of reasons.
+
+                    </H3>
+                    <H4 class="textfile">Avoiding Errors: When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
+Consistency: In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetition, it's now very easy for me to make changes to this style.
+
+                    </H4>
+                    <H3 class="subtitle"> CSS - Cascading Style Sheets
+
+                    </H3>
+                    <H4 class="textfile">CSS give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
+
+                    </H4>
+                    <H3 class="subtitle"> HTML Page Design Process:
+
+                    </H3>
+                    <H4 class="textfile">1. Looking for natural boxes --) 2. Looking for repeated style and semantic elements --) 3. Writing HTML code --) 4.   Applying styles (From BIGGEST to smallest) --) 5. Fixing things.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Introduction to "Serious" Programming
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Computer
+
+                    </H3>
+                    <H4 class="textfile">Most machines (like a toaster) are designed to do a few things. Unless you physically alter these machines, they will only be able to do those things.
+Computers are different. A computer can be programmed to do anything we want, as long as we can write a program that specifies a specific sequence of instructions.
+
+                    </H4>
+                    <H3 class="subtitle"> Computer Program
+
+                    </H3>
+                    <H4 class="textfile">A program is a precise sequence of steps that a computer can follow to do something useful. Web browsers, games, mobile apps, and simple print statements are all examples of computer programs.
+
+                    </H4>
+                    <H3 class="subtitle"> Programming Language
+
+                    </H3>
+                    <H4 class="textfile">A programming language is what programmers use to tell a computer what to do. Python is one example of a programming language. The main character of programmning language is precise.
+
+                    </H4>
+                    <H3 class="subtitle"> Grammar
+
+                    </H3>
+                    <H4 class="textfile">Just like human languages have grammars, programming languages do too. A grammar is a specification of what is "correct" and what is "incorrect."
+In languages like English, people can ofent make sense of sentences that aren't technically "correct," but computers aren't smart enough to do this. This means we have to write code that is exactly "correct" according to the Python interpreter, otherwise our code won't run.
+
+                    </H4>
+                    <H3 class="subtitle"> Python
+
+                    </H3>
+                    <H4 class="textfile">Python is a programming language. When you write Python code and press "Run", a Python Interpreter converts the code you wrote as a set of instructions that the computer itself can understand and execute.
+
+                    </H4>
+                    <H3 class="subtitle"> Python Expressions
+
+                    </H3>
+                    <H4 class="textfile">A Python "expression" is a legal Python statement, a combination of explicit values, constants, variables, operators, and functions that are interpreted according to the particular rules of precedence and of association for a particular programming language
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Variables and Strings
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Variables
+
+                    </H3>
+                    <H4 class="textfile"> Variable is a storage location paired with an associated symbolic name (an identifier), which contains some known or unknown quantity or information referred to as a value.
+Variable's value can change in different stage of the program, and frequently given long names to make them relatively descriptive of their use, 
+
+                    </H4>
+                    <H3 class="subtitle"> Strings
+
+                    </H3>
+                    <H4 class="textfile">String is a sequence of characters, either as a literal constant or as some kind of variable. In Python, strings come with quotation mark (single/double/triple quote).
+The character in string can be expressed in (string) [location of character in the string, from 0...N-1], where N is the length of string.
+
+                    </H4>
+                    <H3 class="subtitle"> Concatenation and Subsequence
+
+                    </H3>
+                    <H4 class="textfile">In Python two strings can be concatenated to one string by using "+" operator. Subsequence is a subset of a string with order.
+
+                    </H4>
+                    <H3 class="subtitle"> Method
+
+                    </H3>
+                    <H4 class="textfile">Method is a procedure associated with an object class.
+
+                    </H4>
+                    <H3 class="subtitle"> Method Find
+
+                    </H3>
+                    <H4 class="textfile">A procedure or function in Python to find string within other string. It can be expressed as: (string).find((sub-string)). 
+The method returns the first position of sub-string. It also has another variation: (string).find((sub-string), loc), and method will return the first position of sub-string after loc.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Input-Function-Output
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> What is Function
+
+                    </H3>
+                    <H4 class="textfile">Functions are little self-contained programs that perform a specific task, which you can incorporate into your own, larger programs.
+After you have created a function, you can use it at any time, in any place. This saves you the time and effort of having to retell the computer what to do every time it does a common task, for example getting the user to type something in.
+
+                    </H4>
+                    <H3 class="subtitle"> How to Make a Function
+
+                    </H3>
+                    <H4 class="textfile">You can define a function in Python using: DEF function_name(parameters):. Inside function definition, a RETURN statement is usaually required as output of function.
+
+                    </H4>
+                    <H3 class="subtitle"> Why Functions Are Important
+
+                    </H3>
+                    <H4 class="textfile">In large program, some operation may repeat multiple times. Defining and using a function can help to reduce repetitive work and improve coding efficiency.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Decision and Repetition: If and While
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Making Decision
+
+                    </H3>
+                    <H4 class="textfile">Boolean values coming out of expression ")", "(", "==" etc can help decision making to control the flow of coding.
+
+                    </H4>
+                    <H3 class="subtitle"> If Statement
+
+                    </H3>
+                    <H4 class="textfile">If statement can control which code get executed at what time. It has three types of variation: 1) If 2) If-If 3) If-Else
+
+                    </H4>
+                    <H3 class="subtitle"> While Loops
+
+                    </H3>
+                    <H4 class="textfile">While Loops can loop the code that performs the same task many times, thus reduce repetitions. Break statement can be combined with If statement to help jump out of While Loops.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Debugging
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Errors Can Happen
+
+                    </H3>
+                    <H4 class="textfile">Errors can happen in the code. Process to find and fix errors is called debugging.
+
+                    </H4>
+                    <H3 class="subtitle"> Debugging Strategy
+
+                    </H3>
+                    <H4 class="textfile">There are five debugging strategies introduced: 1) Examine error messages when programs crash. The last line of Python Tracebacks will tell you what went wrong. Reading backwards from there will tell you more about where the problem occurred.
+2) Work from example code. If your modified code doesn't work, comment it out and do step-by-step modifications to the example code until it does what you want. 
+3) Make sure examples work. Just because you find example code doesn't mean it will work in your system. Check the example code you're using to make sure it behaves the way you expect.
+4) Check (print) intermediate results. When your code doesn't crash, but doesn't behave as expected, add print statements to your program to see where in the code things stop behaving correctly.
+5) Keep and compare old versions. When you have a working version of your code, save it before you add to the code. This will give you something to go back to if you introduce too many new bugs.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Structured Data: List and For Loops
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> List
+
+                    </H3>
+                    <H4 class="textfile">List is a more powerful and general type of structured data. Compared to a string where all of the elements must be characters, in a list the elements can be anything you want such as characters, strings, numbers or even other lists!
+
+                    </H4>
+                    <H3 class="subtitle"> Nested Lists
+
+                    </H3>
+                    <H4 class="textfile">So far, all of the elements in our lists have been of the same type: strings, numbers, etc. However, there are no restrictions on the types of elements in a list. Elements of a list can be any type you want, you can also mix and match different types of elements in a list.
+
+                    </H4>
+                    <H3 class="subtitle"> MUTATION
+
+                    </H3>
+                    <H4 class="textfile">Mutation means changing the value of an object. Lists support mutation. This is the second main difference between strings and lists.
+
+                    </H4>
+                    <H3 class="subtitle"> Alias
+
+                    </H3>
+                    <H4 class="textfile">It is called aliasing when there are two names that refer to the same object. Aliasing is very useful, but also can be very confusing since one mutation can impact many variables. If something happens that changes the state of the object, it affects the state of the object for all names that refer to that object.
+
+                    </H4>
+                    <H3 class="subtitle"> Strings are Immutable
+
+                    </H3>
+                    <H4 class="textfile">Note that we cannot mutate strings, since they are immutable objects. Try mutating a string in the interpreter: #!highlight python s = 'Hello' s[0] = 'Y' 'str' object does not support item assignment.
+
+                    </H4>
+                    <H3 class="subtitle"> Mutable and Immutable Objects
+
+                    </H3>
+                    <H4 class="textfile">The key difference between mutable and immutable objects, is that once an object is mutable, you have to worry about other variables that might refer to the same object. You can change the value of that object and it affects not just variable you think you changed, but other variables that refer to the same object as well.
+
+                    </H4>
+                    <H3 class="subtitle"> List Operations
+
+                    </H3>
+                    <H4 class="textfile">There are many built-in operations on lists. Here are a few of the most useful ones here: 1) Append - The append method adds a new element to the end of a list. The append method mutates the list that it is invoked on, it does not create a new list. The syntax for the append method is: (''list'').append((''element''))
+2) Concatenation - The + operator can be used with lists and is very similar to how it is used to concatenate strings. It produces a new list, it does not mutate either of the input lists. (''list'') + (''list'') 
+3) Length - The len operator can be used to find out the length of an object. The len operator works for many things other than lists, it works for any object that is a collection of things including strings. The output from len is the number of elements in its input.
+
+                    </H4>
+                    <H3 class="subtitle"> For Loops
+
+                    </H3>
+                    <H4 class="textfile">In Python there is a more convenient way to loop through the elements of a list: the for loop. The syntax looks like this: for (''name'') in (''list''): (''block''). The loop goes through each element of the list in turn, assigning that element to the (name) and evaluating the (block).
+
+                    </H4>
+                    <H3 class="subtitle"> Index
+
+                    </H3>
+                    <H4 class="textfile">There are many other ways to define find_element. A built-in list operation that we have not yet introduced that makes it easier to write find_element is the index method: (''list'').index((''value'')) to give (''position'') or error 
+The index method is invoked on a list by passing in a value, and the output is the first position where that value sits in the list. If the list that does not contain any occurrences of the value you pass in, index produces an error (this is different from the find method for strings which we used in Unit 1, that returns a -1 when the target string is not found).
+
+                    </H4>
+                    <H3 class="subtitle"> In
+
+                    </H3>
+                    <H4 class="textfile">Test if the element is anywhere in the list. We have already seen in used in the for loop, however outside of a for loop header it means something different: (''value'') in (''list'') -) (''Boolean''). The output is True if the list contains an element matching value, and False if it does not.
+
+                    </H4>
+                    <H3 class="subtitle"> Not In
+
+                    </H3>
+                    <H4 class="textfile">Similarly, you can use not in, which has the opposite meaning of in: (''value'') not in (''list''). If the value is not in the list the result of (value) not in (list) is True, and if the (value) is in the (list) than the result is False.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Introduction to Abstraction
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Abstraction
+
+                    </H3>
+                    <H4 class="textfile">Abstraction is the act of representing essential features without including the background details or explanations, or hidding details behind documentation. Abstract allows programmers to reuse other's code without too much details.
+
+                    </H4>
+                    <H3 class="subtitle"> What is Object Oriented Programming (OOP)
+
+                    </H3>
+                    <H4 class="textfile">A type of programming in which programmers define not only the data type of a data structure, but also the types of functions that can be applied to the data structure. In this way, the data structure becomes an object that includes both data and functions. In addition, programmers can create relationships between one object and another. For example, objects can inheritcharacteristics from other objects.
+
+                    </H4>
+                    <H3 class="subtitle"> Why OOP is Better in Large Programming Projects
+
+                    </H3>
+                    <H4 class="textfile">OOS makes coding easier due to: 1) reducing code duplication by introduction of function and class 2) To allow code being reused by different programmers through abstraction 3) Changing code in a systematic way, which means programmers only need to change code at function or class level to avoid missing parts, for example, introducing new type by defining child class.
+
+                    </H4>
+                    <H3 class="subtitle"> What are Objects
+
+                    </H3>
+                    <H4 class="textfile">Objects are structures that contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. In OOP, computer programs are designed by making them out of objects that interact with one another. There is significant diversity in object-oriented programming, but most popular languages are class-based, meaning that objects are instances of classes, which typically also determines their type.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Use Functions
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Webbrowser module in Python
+
+                    </H3>
+                    <H4 class="textfile">The webbrowser module includes functions to open URLs in interactive browser applications. webbrowser.open function can be used to open an url link, the example is webbrowser.open("url link")
+
+                    </H4>
+                    <H3 class="subtitle"> Time module in Python
+
+                    </H3>
+                    <H4 class="textfile">Time module provides various time-related functions. One function introduced in the class is: time.sleep(secs), which will suspend execution of the current thread for the given number of seconds.
+
+                    </H4>
+                    <H3 class="subtitle"> Python Standard Library
+
+                    </H3>
+                    <H4 class="textfile">Python standard library provides programmers a way to reuse functions and classes contained in it by abstracting away platform-specifics into platform-neutral APIs. Library contains built-in modules (written in C) that provide access to system functionality such as file I/O that would otherwise be inaccessible to Python programmers, as well as modules written in Python that provide standardized solutions for many problems that occur in everyday programming.
+
+                    </H4>
+                    <H3 class="subtitle"> OS module in Python
+
+                    </H3>
+                    <H4 class="textfile">OS module provides a portable way of using operating system dependent functionality. Function os.listdir(path) returns a list containing the names of the entries in the directory given by path. Function os.getcwd() returns a string representing the current working directory. Function os.chdir(path) changes current working directory. Function os.rename(src.dst) rename the file or directory src to dst.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Use Classes
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> What is Class
+
+                    </H3>
+                    <H4 class="textfile">Class is a neatly packaged ox that put things well. A class is simply a representation of a type of object. It is the blueprint, or plan, or template, that describes the details of an object. A class is the blueprint from which the individual objects are created. Class has following components: name, attributes, and methods. First letter of class name usually is upper case. To make code reusable, class should be defined in a seperate file.
+
+                    </H4>
+                    <H3 class="subtitle"> What is Instance
+
+                    </H3>
+                    <H4 class="textfile">"Instance " is synonymous to "object", instancce is a specific realization of one certain class. 
+
+                    </H4>
+                    <H3 class="subtitle"> What is Constructor
+
+                    </H3>
+                    <H4 class="textfile"> A constructor (__init__ function) in a class is a special type of function called to create an object. It prepares the new object for use, often accepting arguments that the constructor uses to set required member variables.
+
+                    </H4>
+                    <H3 class="subtitle"> How to define a new instance
+
+                    </H3>
+                    <H4 class="textfile">When defining a new instance, the constructor function or the __init__ function under class will be called, and space/memory for the new instance or object will be assigned.
+
+                    </H4>
+                    <H3 class="subtitle"> What is Instance Variable
+
+                    </H3>
+                    <H4 class="textfile">An instance variable is a variable defined in a class (i.e. a member variable), for which each instantiated object of the class has a separate copy and a different value. 
+
+                    </H4>
+                    <H3 class="subtitle"> What is Instance Method
+
+                    </H3>
+                    <H4 class="textfile">The method or function that the instance contains is called instance method. Intance method is defined in class. The image below shows real example of constructor, instance variable, instance method, instances under a class.
+                    <img class="img-responsive" src="images/Class_Def.png" alt="Class_Definition">
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Make Class - Advanced Topic
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> What is Class Variable
+
+                    </H3>
+                    <H4 class="textfile">A class variable is a variable defined in a class of which a single copy exists and shared by all instances, regardless of how many instances of the class exist.
+
+                    </H4>
+                    <H3 class="subtitle"> Difference Between Class Variables and Instance Variables
+
+                    </H3>
+                    <H4 class="textfile">Class variables only have one copy of the variable(s) shared with all instances of the class, whereas every object has its own personal copy of an instance variable. 
+
+                    </H4>
+                    <H3 class="subtitle"> Docstring
+
+                    </H3>
+                    <H4 class="textfile">A docstring is a string literal specified in source code that is used, like a comment, to document a specific segment of code. In Python, Docstrings can be accessed from the interpreter and from Python programs using the "__doc__" attribute. The Docstring can be defined in class using """ 'contents' """.
+
+                    </H4>
+                    <H3 class="subtitle"> Inheritance
+
+                    </H3>
+                    <H4 class="textfile">Inheritance is when a class is based on another class, using the same implementation (inheriting from a class) specifying implementation to maintain the same behavior (realizing an interface; inheriting behavior). It is a mechanism for code reuse and to allow independent extensions of the original software via public classes and interfaces. The relationships of classes through inheritance give rise to a hierarchy.
+In Python, an example of inheritance can be shown from following code (Child class has inheritance from Parent class) --
+    Class Child(Parent):
+        def: __init(self, Parent's_parameters, Child's_parameters):
+            Parent.__init__(self, Parent's_parameters)
+            self.Child's_parameters
+When an constructor of Child class is called, the Parent's constructor is also called, thus Parent's features are inherited.
+
+                    </H4>
+                    <H3 class="subtitle"> Method Overidding
+
+                    </H3>
+                    <H4 class="textfile">Usually method defined in parent class can be inherited by child class. However child class also can have a different implementation of same method already provided parent class. The method defined in child class will override the method in parenet class when it is invoked by child class. This is called method overriding.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Introduction to Networks
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> What is a "server"?
+
+                    </H3>
+                    <H4 class="textfile">A server is a computer that interacts with a request we make to the computer. For example, whenever we type in "http://www.google.com", we are sending a request to Google's servers to return a website.
+
+                    </H4>
+                    <H3 class="subtitle"> What is Network?
+
+                    </H3>
+                    <H4 class="textfile">A network is a group of entities that are communicate, even though they are not all directly connected. Three composistion parts of network: 1) Way to encode and interpret messages; 2) Way to route messages 3) Rules for deciding who gets to use resources.
+
+                    </H4>
+                    <H3 class="subtitle"> How to measuring performance of a network?
+
+                    </H3>
+                    <H4 class="textfile">Performance of a network can be measured based on latency and bandwidth. Latency - time it takes message from source to destination; Bandwidth – amount of information that can be transmitted per unit time.
+
+                    </H4>
+                    <H3 class="subtitle"> What is Protocol?
+
+                    </H3>
+                    <H4 class="textfile">A protocol is the special set of rules that end points in a telecommunication connection use when they communicate. In the web, Hypertext Transfer Protocol (HTP) governs the connection between web broswer and server. In web communication, web browser sends "Get" request, and A web server can handle a Hypertext Transfer Protocol request either by reading a file from its file system based on the URL path or by handling the request using logic that is specific to the type of resource. In the case that special logic is invoked the query string will be available to that logic for use in its processing, along with the path component of the URL.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Correct URL
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> What is IP Address?
+
+                    </H3>
+                    <H4 class="textfile">An Internet Protocol address (IP address) is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication. An IP address serves two principal functions: host or network interface identification and location addressing. Its role has been characterized as follows: "A name indicates what we seek. An address indicates where it is. A route indicates how to get there."
+
+                    </H4>
+                    <H3 class="subtitle"> What is URL?
+
+                    </H3>
+                    <H4 class="textfile">The URL is the human readable locator which resolves to a numerical IP Address and represents, as Steve says, "the location of the physical machine which has the document we want to fetch."
+
+                    </H4>
+                    <H3 class="subtitle"> What is Query String?
+
+                    </H3>
+                    <H4 class="textfile">A query string is the part of a uniform resource locator (URL) containing data that does not fit conveniently into a hierarchical path structure. The query string commonly includes fields added to a base URL by a Web browser or other client application, for example as part of an HTML form.
+
+                    </H4>
+                    <H3 class="subtitle"> What is Caching?
+
+                    </H3>
+                    <H4 class="textfile">A cache (pronounced like cash) is something that stores data so that you don't have to retrieve it later. It can be used to make data requests faster.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Forms
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> HTML Forms
+
+                    </H3>
+                    <H4 class="textfile">HTML elements introduced in class - Form, Button with input type of "text", "checkbox", "radio", "select" and with action.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Python Break-Modules & Dictionaries
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Modulus Operator
+
+                    </H3>
+                    <H4 class="textfile">The Modulus Operator % has - <number> % <modules> -> <remainder>
+
+                    </H4>
+                    <H3 class="subtitle"> What is Dictionaries
+
+                    </H3>
+                    <H4 class="textfile">Dictionary is one of data structure in Python. It is composed by set of (key, values). Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces. Keys are unique within a dictionary while values may not be. The values of a dictionary can be of any type, but the keys must be of an immutable data type such as strings, numbers, or tuples. The values of dictionary can be any type.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Working with App Engine
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Difference Between GET and POST
+
+                    </H3>
+                    <H4 class="textfile">GET and POST are two different methods freuently used, GET requests are used to retrieve data and POST requests to make changes to the server. Besides they have following differences:
+GET - 1) Parameters in URL; 2) Used for fetching documents; 3) Affected by maximum URL length (i.e. 2000 characters); 4) OK to cache; 5) Shouldn't change the server.
+POST - 1) Parameters in body; 2) Used for updating data; 3) No max length (max length is configured at server side); 4) Not OK to cache; 5) OK to change the server. 
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Validation
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> Why Input Validation is Necessary?
+
+                    </H3>
+                    <H4 class="textfile">User input needs to be validated to ensure predictable behavior and not causing harm to the server. 
+
+                    </H4>
+                    <H3 class="subtitle"> Input Validation Work Flow
+
+                    </H3>
+                    <H4 class="textfile">1) Verify the user's input; 2) On error, render form again and remind user making input again; 3) Including error message.
+
+                    </H4>
+                    <H3 class="subtitle"> String Substitution
+
+                    </H3>
+                    <H4 class="textfile">1) Single String Substitution - "text %s" % Var 2) Multiple Strings Substitution - "text %s text %s" % (Var1, Var2) 3) String Substitution with Dictionary - "text %(NAME)s text" %{"NAME": value}
+
+                    </H4>
+                    <H3 class="subtitle"> Whast is Escaping?
+
+                    </H3>
+                    <H4 class="textfile">In HTML, there are a handful of super special characters, namely: <, >, &, and ". When using these characters, it's important to let HTML know if you want to use them normally, or in their special capacity.
+
+                    </H4>
+                    <H3 class="subtitle"> Escaping Function in Python
+
+                    </H3>
+                    <H4 class="textfile">Example of escaping function - 
+import cgi
+def escape_html(s):
+    cgi.escape(s, quote = True)
+
+                    </H4>
+                    <H3 class="subtitle"> Why Redirection is Needed?
+
+                    </H3>
+                    <H4 class="textfile">1) Need to share success link; 2) Need to reload the page without annoying message.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> HTML Template
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> What is Template?
+
+                    </H3>
+                    <H4 class="textfile">A template library is a library to build complicated heml strings. Jinja (jinja.pocoo.org) is one of such library.
+
+                    </H4>
+                    <H3 class="subtitle"> Adavantage of Templates
+
+                    </H3>
+                    <H4 class="textfile">Template is a way of coding abstraction and abvoiding repetition, it will help 1) Seperate different types of code - Python and HTML; 2) Make more readable code; 3) More secure websites; 4) HTML that is easier to modify.
+
+                    </H4>
+                    
+                    <H3 class="subtitle"> Escaping Templates
+
+                    </H3>
+                    <H4 class="textfile">It is a way for input validation, preventing false parameters. Auto escaping enable method is included in Jinja template. Helpful tips about escaping: 1) Always automatically escape variables when possible; 2) Minimize code in templates; 3) Minimize html in code.
+
+                    </H4>
+                    <H3 class="subtitle"> Template Inheritance
+
+                    </H3>
+                    <H4 class="textfile">Template inheritance is a way to avoid template repetition. Usually base template is defined to include common contents, new template will have additional contents.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row-lesson">
+                <div class="col-md-4"><H3 class="lesson-name"> Database
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 subtitle">
+                    <H3 class="subtitle"> What is a database?
+
+                    </H3>
+                    <H4 class="textfile">A programe that stores and retrieves large amount of structured data. 
+
+                    </H4>
+                    <H3 class="subtitle"> Type of Database
+
+                    </H3>
+                    <H4 class="textfile">1) Relational Database - example: SQL, MySQL, SQLite, Postgresql, Oracle; 2) Other Database - Google App Enigne's Database, Amazon Dynamo, NoSQL
+
+                    </H4>
+                    <H3 class="subtitle"> SQL
+
+                    </H3>
+                    <H4 class="textfile">Structured Querry Language, was invented in the 1970s. 
+Typical expression of a query sentence: SELECT * FROM links WHERE id = 5 
+(AND/OR votes > 23)
+ORDER BY votes;
+
+                    </H4>
+                    <H3 class="subtitle"> Joins in SQL
+
+                    </H3>
+                    <H4 class="textfile">A SQL join clause combines records from two or more tables in a relational database. It creates a set that can be saved as a table or used as it is. A JOIN is a means for combining fields from two tables (or more) by using values common to each.
+A example of join clause is - SELECT a.* FROM a, b WHERE b.id = user.id
+
+                    </H4>
+                    <H3 class="subtitle"> Indexes of Database
+
+                    </H3>
+                    <H4 class="textfile">An index is used to speed up the performance of queries. It does this by reducing the number of database data pages that have to be visited/scanned. In SQL Server, a clustered index determines the physical order of data in a table. There can be only one clustered index per table.
+
+
+
+                    </H4>
+                </div>
+            </div>
+        </div>
+
+        <div class = "container">
+  
+            <div class="col-md-8">
+                Please leave feedback:
+                <form class="form-submission" action="/sign?board_name={{board_name}}" method="post">
+                <textarea class="form-control" name="content" rows="5" cols="90"></textarea><br>
+                <input type="submit" class="btn btn-primary" value="Post to Board">
+                </form>
+            </div>
+        </div>
+       
+        <div class="row post-container">
+            <div class="col-md-12">
+
+                <h3 class="bottom-border">{{board_name}}'s Board</h3>
+                {% block content %}{% endblock %}
+            </div>
+            {% if continue_posts %}
+                <div class="col-md-12 next-post">
+                    <h3><a href="/?board_name={{board_name}}&continue_posts={{continue_posts}}">Get Next 10 Posts</a></h3>
+                </div>
+            {% endif %}
+        </div>
+
+</body>
+</html>
